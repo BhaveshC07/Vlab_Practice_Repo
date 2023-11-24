@@ -1,0 +1,20 @@
+{
+    "compilerOptions":{
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es6",
+        "module": "CommonJS",
+        "allowJs": false,
+        "lib": ["DOM","ES2015","ES2017"],
+        "moduleResolution": "Node",
+        "outDir": "./js/"
+    },
+    "exclude": [
+        "node_modules",
+        "wwwroot",
+        "./js/"
+    ],
+    "include": ["./ts/"]
+}
